@@ -1,0 +1,268 @@
+body
+{
+    background-image: url("img/sun-pattern.png");
+    margin: auto;
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main{
+    margin: auto;
+    text-align: center;
+}
+.logo{
+    font-size: 62px;
+    letter-spacing: 3px;
+    font-family: 'Charm', cursive;
+    text-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.logform{
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5592bb59;
+    padding: 50px;
+    width: 300px;
+    font-size: 20px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: block;
+    /*margin: auto;*/
+}
+
+
+.logform a{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    width: 290px;
+    background-color: #36b03c;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+
+
+}
+
+input[type="submit"]{
+    width: 300px;
+    background-color: #36b03c;
+    font-size: 20px;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border: none;
+
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+#menueB{
+    position: relative;
+    float: left;
+    width: 300px;
+    text-align: left;
+    /*background-color: #aaaaaa;*/
+
+}
+input.menue{
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+#content{
+    float: left;
+    /*background-color: #aaaaaa;*/
+    width: 50%;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+table{
+    padding: 0px;
+    float: right;
+}
+
+
+table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+}
+table.blueTable tbody td {
+    font-size: 23px;
+    text-align: center;
+}
+table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+}
+table.blueTable thead {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    /*color: #FFFFFF;*/
+    border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+table.blueTable a{
+    text-decoration: none;
+    display: block;
+}
+
+table.blueTable a:visited{
+    color: black;
+}
+
+table.blueTable img {
+    /*width: 450px;*/
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+
+table.blueTable img:hover{
+
+    transform: scale(2.0);
+    -ms-transform: scale(2.0);
+    -webkit-transform: scale(2.0);
+    cursor: pointer;
+
+
+}
+
+input[type=file] {
+
+    padding: 10px;
+}
+input[type=password]{
+   margin: auto;
+    margin-top: 20px;
+
+}
+
+#addForm{
+    text-align: left;
+    float: left;
+}
+
+#file_add{
+    float: left;
+    width: 400px;
+}
+#IMG{
+    float: left;
+    border: 2px solid #36b03c;
+    width: 180px;
+    height: 180px;
+    margin-top: 80px;
+
+
+}
+
+#IMG img{
+    width: 180px;
+}
+
+#deleteselected{
+    position: absolute;
+    top: 383px;
+    left: 50px;
+    background-color: #36b03c;
+    /*display: none;*/
+}
+
+#dummy{
+    position: relative;
+}
+
+#main_add{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    width: 690px;
+    background-color: #5592bb59;
+}
+
+
+
+#browse_menue{
+    float: left;
+    width: 300px;
+    /*height: 500px;*/
+    /*border: solid #36b03c;*/
+}
+#browse_table{
+    float: left;
+    width: 70%;
+    height: 500px;
+    /*border: solid  #327cad;*/
+    margin-left: 50px;
+}
+#browse_content{
+    margin-top: 50px;
+}
+
+.reg{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+        background-color: #5592bb59;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+
+}
+.reg input{
+    margin: auto;
+    margin-top: 5px;
+}
+
+#resetbut{
+    background-color: #c54444;
+}
+#resetpass{
+    margin: auto;
+    padding: 10px;
+    background-color: #5592bb59;
+    width: 400px;
+
+
+}
+
+#resetpass input{
+    font-size: 25px;
+}
